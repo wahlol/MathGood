@@ -1,0 +1,1431 @@
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
