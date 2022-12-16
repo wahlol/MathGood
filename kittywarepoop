@@ -1,0 +1,814 @@
+local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
+
+local X = Material.Load({
+	Title = "Kitty-Ware",
+	Style = 1,
+	SizeX = 500,
+	SizeY = 350,
+	Theme = "Jester",
+	ColorOverrides = {
+		MainFrame = Color3.fromRGB(235,235,235)
+	}
+})
+
+
+
+local About = X.New({
+	Title = "About"
+})
+
+local A = About.Button({
+	Text = "Kitty-Ware is made by wah#6969",
+	Callback = function()
+		print("hello")
+	end
+})
+
+local A = About.Button({
+	Text = "Kitty-Ware is a hub fully coded by me!",
+	Callback = function()
+		print("hello")
+	end
+})
+
+local A = About.Button({
+	Text = "I'm planning not to steal script and make my own!",
+	Callback = function()
+		print("hello")
+	end
+})
+
+local A = About.Button({
+	Text = "Kitty-Ware is private right now (unless shared) I am making a discord",
+	Callback = function()
+		print("hello")
+	end
+})
+
+
+local Auto = X.New({
+	Title = "Auto Farm"
+})
+
+
+
+local D = Auto.Dropdown({
+	Text = "Select Lot!",
+	Callback = function(Value)
+	
+	if Value == "1" then
+	    
+	   LocalPlot = 1
+	   
+	   elseif Value == "2" then
+	    
+	   LocalPlot = 2
+	   
+	   elseif Value == "3" then
+	    
+	   LocalPlot = 3
+	   
+	   elseif Value == "4" then
+	    
+	   LocalPlot = 4
+	   
+	   elseif Value == "5" then
+	    
+	   LocalPlot = 5
+	   
+	   elseif Value == "6" then
+	    
+	   LocalPlot = 6
+	    
+	end
+	end,
+	Options = {
+		"1",
+		"2",
+		"3",
+		"4",
+		"5",
+		"6"
+    }
+	
+
+
+})
+
+local A = Auto.Button({
+	Text = "Instant Use Trash",
+	Callback = function()
+game:GetService("ReplicatedStorage").Communication.UseTrash:FireServer()
+
+	end
+})
+
+
+local A = Auto.Button({
+	Text = "Get Lemondade",
+	Callback = function()
+
+if LocalPlot == 6 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("6").Objects.Blender1, true)
+
+elseif LocalPlot == 1 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("1").Objects.Blender1, true)
+
+elseif LocalPlot == 2 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("2").Objects.Blender1, true)
+
+
+elseif LocalPlot == 3 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("3").Objects.Blender1, true)
+
+elseif LocalPlot == 4 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("4").Objects.Blender1, true)
+
+
+elseif LocalPlot == 5 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("5").Objects.Blender1, true)
+
+end
+	end
+})
+
+local A = Auto.Button({
+	Text = "Serve Customer (Lemondade)",
+	Callback = function()
+
+if LocalPlot == 6 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("6").Objects.Blender1, true)
+
+
+game:GetService("ReplicatedStorage").Communication.CustomerOrder:FireServer(workspace.Plots:FindFirstChild("6").Customers.Customer)
+
+
+game:GetService("ReplicatedStorage").Communication.ServeCustomer:FireServer(workspace.Plots:FindFirstChild("6").Customers.Customer)
+
+elseif LocalPlot == 1 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("1").Objects.Blender1, true)
+
+
+game:GetService("ReplicatedStorage").Communication.CustomerOrder:FireServer(workspace.Plots:FindFirstChild("1").Customers.Customer)
+
+
+game:GetService("ReplicatedStorage").Communication.ServeCustomer:FireServer(workspace.Plots:FindFirstChild("1").Customers.Customer)
+
+
+elseif LocalPlot == 2 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("2").Objects.Blender1, true)
+
+
+game:GetService("ReplicatedStorage").Communication.CustomerOrder:FireServer(workspace.Plots:FindFirstChild("2").Customers.Customer)
+
+
+game:GetService("ReplicatedStorage").Communication.ServeCustomer:FireServer(workspace.Plots:FindFirstChild("2").Customers.Customer)
+
+
+elseif LocalPlot == 3 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("3").Objects.Blender1, true)
+
+
+game:GetService("ReplicatedStorage").Communication.CustomerOrder:FireServer(workspace.Plots:FindFirstChild("3").Customers.Customer)
+
+
+game:GetService("ReplicatedStorage").Communication.ServeCustomer:FireServer(workspace.Plots:FindFirstChild("3").Customers.Customer)
+
+elseif LocalPlot == 4 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("4").Objects.Blender1, true)
+
+
+game:GetService("ReplicatedStorage").Communication.CustomerOrder:FireServer(workspace.Plots:FindFirstChild("4").Customers.Customer)
+
+
+game:GetService("ReplicatedStorage").Communication.ServeCustomer:FireServer(workspace.Plots:FindFirstChild("4").Customers.Customer)
+
+
+elseif LocalPlot == 5 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("5").Objects.Blender1, true)
+
+
+game:GetService("ReplicatedStorage").Communication.CustomerOrder:FireServer(workspace.Plots:FindFirstChild("5").Customers.Customer)
+
+
+game:GetService("ReplicatedStorage").Communication.ServeCustomer:FireServer(workspace.Plots:FindFirstChild("5").Customers.Customer)
+
+
+end
+
+	end
+})
+
+local A = Auto.Button({
+	Text = "Get Hotdog",
+	Callback = function()
+
+if LocalPlot == 2 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("2").Objects.Grill1, true)
+
+elseif LocalPlot == 1 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("1").Objects.Grill1, true)
+
+elseif LocalPlot == 3 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("3").Objects.Grill1, true)
+
+elseif LocalPlot == 4 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("4").Objects.Grill1, true)
+
+elseif LocalPlot == 5 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("5").Objects.Grill1, true)
+
+elseif LocalPlot == 6 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("6").Objects.Grill1, true)
+
+
+end
+	end
+})
+
+local A = Auto.Button({
+	Text = "Get Soda",
+	Callback = function()
+
+if LocalPlot == 2 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("2").Objects.SodaMachine1, true)
+
+elseif LocalPlot == 1 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("1").Objects.SodaMachine1, true)
+
+elseif LocalPlot == 3 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("3").Objects.SodaMachine1, true)
+
+elseif LocalPlot == 4 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("4").Objects.SodaMachine1, true)
+
+elseif LocalPlot == 5 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("5").Objects.SodaMachine1, true)
+
+elseif LocalPlot == 6 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("6").Objects.SodaMachine1, true)
+
+
+end
+
+	end
+})
+
+local A = Auto.Button({
+	Text = "Serve Customer (Hotdog)",
+	Callback = function()
+	if LocalPlot == 6 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("6").Objects.Grill1, true)
+
+
+game:GetService("ReplicatedStorage").Communication.CustomerOrder:FireServer(workspace.Plots:FindFirstChild("6").Customers.Customer)
+
+
+game:GetService("ReplicatedStorage").Communication.ServeCustomer:FireServer(workspace.Plots:FindFirstChild("6").Customers.Customer)
+
+elseif LocalPlot == 1 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("1").Objects.Grill1, true)
+
+
+game:GetService("ReplicatedStorage").Communication.CustomerOrder:FireServer(workspace.Plots:FindFirstChild("1").Customers.Customer)
+
+
+game:GetService("ReplicatedStorage").Communication.ServeCustomer:FireServer(workspace.Plots:FindFirstChild("1").Customers.Customer)
+
+
+elseif LocalPlot == 2 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("2").Objects.Grill1, true)
+
+
+game:GetService("ReplicatedStorage").Communication.CustomerOrder:FireServer(workspace.Plots:FindFirstChild("2").Customers.Customer)
+
+
+game:GetService("ReplicatedStorage").Communication.ServeCustomer:FireServer(workspace.Plots:FindFirstChild("2").Customers.Customer)
+
+
+elseif LocalPlot == 3 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("3").Objects.Grill1, true)
+
+
+game:GetService("ReplicatedStorage").Communication.CustomerOrder:FireServer(workspace.Plots:FindFirstChild("3").Customers.Customer)
+
+
+game:GetService("ReplicatedStorage").Communication.ServeCustomer:FireServer(workspace.Plots:FindFirstChild("3").Customers.Customer)
+
+elseif LocalPlot == 4 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("4").Objects.Grill1, true)
+
+
+game:GetService("ReplicatedStorage").Communication.CustomerOrder:FireServer(workspace.Plots:FindFirstChild("4").Customers.Customer)
+
+
+game:GetService("ReplicatedStorage").Communication.ServeCustomer:FireServer(workspace.Plots:FindFirstChild("4").Customers.Customer)
+
+
+elseif LocalPlot == 5 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("5").Objects.Grill1, true)
+
+
+game:GetService("ReplicatedStorage").Communication.CustomerOrder:FireServer(workspace.Plots:FindFirstChild("5").Customers.Customer)
+
+
+game:GetService("ReplicatedStorage").Communication.ServeCustomer:FireServer(workspace.Plots:FindFirstChild("5").Customers.Customer)
+	
+	end
+	
+	end
+})
+
+local A = Auto.Button({
+	Text = "Serve Customer (Soda)",
+	Callback = function()
+	if LocalPlot == 6 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("6").Objects.SodaMachine1, true)
+
+
+game:GetService("ReplicatedStorage").Communication.CustomerOrder:FireServer(workspace.Plots:FindFirstChild("6").Customers.Customer)
+
+
+game:GetService("ReplicatedStorage").Communication.ServeCustomer:FireServer(workspace.Plots:FindFirstChild("6").Customers.Customer)
+
+elseif LocalPlot == 1 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("1").Objects.SodaMachine1, true)
+
+
+game:GetService("ReplicatedStorage").Communication.CustomerOrder:FireServer(workspace.Plots:FindFirstChild("1").Customers.Customer)
+
+
+game:GetService("ReplicatedStorage").Communication.ServeCustomer:FireServer(workspace.Plots:FindFirstChild("1").Customers.Customer)
+
+
+elseif LocalPlot == 2 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("2").Objects.SodaMachine1, true)
+
+
+game:GetService("ReplicatedStorage").Communication.CustomerOrder:FireServer(workspace.Plots:FindFirstChild("2").Customers.Customer)
+
+
+game:GetService("ReplicatedStorage").Communication.ServeCustomer:FireServer(workspace.Plots:FindFirstChild("2").Customers.Customer)
+
+
+elseif LocalPlot == 3 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("3").Objects.SodaMachine1, true)
+
+
+game:GetService("ReplicatedStorage").Communication.CustomerOrder:FireServer(workspace.Plots:FindFirstChild("3").Customers.Customer)
+
+
+game:GetService("ReplicatedStorage").Communication.ServeCustomer:FireServer(workspace.Plots:FindFirstChild("3").Customers.Customer)
+
+elseif LocalPlot == 4 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("4").Objects.SodaMachine1, true)
+
+
+game:GetService("ReplicatedStorage").Communication.CustomerOrder:FireServer(workspace.Plots:FindFirstChild("4").Customers.Customer)
+
+
+game:GetService("ReplicatedStorage").Communication.ServeCustomer:FireServer(workspace.Plots:FindFirstChild("4").Customers.Customer)
+
+
+elseif LocalPlot == 5 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("5").Objects.SodaMachine1, true)
+
+
+game:GetService("ReplicatedStorage").Communication.CustomerOrder:FireServer(workspace.Plots:FindFirstChild("5").Customers.Customer)
+
+
+game:GetService("ReplicatedStorage").Communication.ServeCustomer:FireServer(workspace.Plots:FindFirstChild("5").Customers.Customer)
+	
+	end
+	end
+})
+
+
+local A = Auto.Button({
+	Text = "Get Ice Cream",
+	Callback = function()
+
+if LocalPlot == 2 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("2").Objects.SoftServeMachine1, true)
+
+elseif LocalPlot == 1 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("1").Objects.SoftServeMachine1, true)
+
+elseif LocalPlot == 3 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("3").Objects.SoftServeMachine1, true)
+
+elseif LocalPlot == 4 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("4").Objects.SoftServeMachine1, true)
+
+elseif LocalPlot == 5 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("5").Objects.SoftServeMachine1, true)
+
+elseif LocalPlot == 6 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("6").Objects.SoftServeMachine1, true)
+
+
+end
+	end
+})
+
+local A = Auto.Button({
+	Text = "Get Ice Cream Bar",
+	Callback = function()
+
+if LocalPlot == 2 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("2").Objects.Freezer1, true)
+
+elseif LocalPlot == 1 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("1").Objects.Freezer1, true)
+
+elseif LocalPlot == 3 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("3").Objects.Freezer1, true)
+
+elseif LocalPlot == 4 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("4").Objects.Freezer1, true)
+
+elseif LocalPlot == 5 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("5").Objects.Freezer1, true)
+
+elseif LocalPlot == 6 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("6").Objects.Freezer1, true)
+
+
+end
+	end
+})
+
+local A = Auto.Button({
+	Text = "Get Sundae",
+	Callback = function()
+
+if LocalPlot == 2 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("2").Objects.Bar1, true)
+
+elseif LocalPlot == 1 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("1").Objects.Bar1, true)
+
+elseif LocalPlot == 3 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("3").Objects.Bar1, true)
+
+elseif LocalPlot == 4 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("4").Objects.Bar1, true)
+
+elseif LocalPlot == 5 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("5").Objects.Bar1, true)
+
+elseif LocalPlot == 6 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("6").Objects.Bar1, true)
+
+
+end
+	end
+})
+
+
+local A = Auto.Button({
+	Text = "Serve Customer (Ice Cream)",
+	Callback = function()
+	if LocalPlot == 6 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("6").Objects.SoftServeMachine1, true)
+
+
+game:GetService("ReplicatedStorage").Communication.CustomerOrder:FireServer(workspace.Plots:FindFirstChild("6").Customers.Customer)
+
+
+game:GetService("ReplicatedStorage").Communication.ServeCustomer:FireServer(workspace.Plots:FindFirstChild("6").Customers.Customer)
+
+elseif LocalPlot == 1 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("1").Objects.SoftServeMachine1, true)
+
+
+game:GetService("ReplicatedStorage").Communication.CustomerOrder:FireServer(workspace.Plots:FindFirstChild("1").Customers.Customer)
+
+
+game:GetService("ReplicatedStorage").Communication.ServeCustomer:FireServer(workspace.Plots:FindFirstChild("1").Customers.Customer)
+
+
+elseif LocalPlot == 2 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("2").Objects.SoftServeMachine1, true)
+
+
+game:GetService("ReplicatedStorage").Communication.CustomerOrder:FireServer(workspace.Plots:FindFirstChild("2").Customers.Customer)
+
+
+game:GetService("ReplicatedStorage").Communication.ServeCustomer:FireServer(workspace.Plots:FindFirstChild("2").Customers.Customer)
+
+
+elseif LocalPlot == 3 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("3").Objects.SoftServeMachine1, true)
+
+
+game:GetService("ReplicatedStorage").Communication.CustomerOrder:FireServer(workspace.Plots:FindFirstChild("3").Customers.Customer)
+
+
+game:GetService("ReplicatedStorage").Communication.ServeCustomer:FireServer(workspace.Plots:FindFirstChild("3").Customers.Customer)
+
+elseif LocalPlot == 4 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("4").Objects.SoftServeMachine1, true)
+
+
+game:GetService("ReplicatedStorage").Communication.CustomerOrder:FireServer(workspace.Plots:FindFirstChild("4").Customers.Customer)
+
+
+game:GetService("ReplicatedStorage").Communication.ServeCustomer:FireServer(workspace.Plots:FindFirstChild("4").Customers.Customer)
+
+
+elseif LocalPlot == 5 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("5").Objects.SoftServeMachine1, true)
+
+
+game:GetService("ReplicatedStorage").Communication.CustomerOrder:FireServer(workspace.Plots:FindFirstChild("5").Customers.Customer)
+
+
+game:GetService("ReplicatedStorage").Communication.ServeCustomer:FireServer(workspace.Plots:FindFirstChild("5").Customers.Customer)
+	
+	end
+	end
+})
+
+
+local A = Auto.Button({
+	Text = "Serve Customer (Ice Cream Bar)",
+	Callback = function()
+	if LocalPlot == 6 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("6").Objects.Freezer1, true)
+
+
+game:GetService("ReplicatedStorage").Communication.CustomerOrder:FireServer(workspace.Plots:FindFirstChild("6").Customers.Customer)
+
+
+game:GetService("ReplicatedStorage").Communication.ServeCustomer:FireServer(workspace.Plots:FindFirstChild("6").Customers.Customer)
+
+elseif LocalPlot == 1 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("1").Objects.Freezer1, true)
+
+
+game:GetService("ReplicatedStorage").Communication.CustomerOrder:FireServer(workspace.Plots:FindFirstChild("1").Customers.Customer)
+
+
+game:GetService("ReplicatedStorage").Communication.ServeCustomer:FireServer(workspace.Plots:FindFirstChild("1").Customers.Customer)
+
+
+elseif LocalPlot == 2 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("2").Objects.Freezer1, true)
+
+
+game:GetService("ReplicatedStorage").Communication.CustomerOrder:FireServer(workspace.Plots:FindFirstChild("2").Customers.Customer)
+
+
+game:GetService("ReplicatedStorage").Communication.ServeCustomer:FireServer(workspace.Plots:FindFirstChild("2").Customers.Customer)
+
+
+elseif LocalPlot == 3 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("3").Objects.Freezer1, true)
+
+
+game:GetService("ReplicatedStorage").Communication.CustomerOrder:FireServer(workspace.Plots:FindFirstChild("3").Customers.Customer)
+
+
+game:GetService("ReplicatedStorage").Communication.ServeCustomer:FireServer(workspace.Plots:FindFirstChild("3").Customers.Customer)
+
+elseif LocalPlot == 4 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("4").Objects.Freezer1, true)
+
+
+game:GetService("ReplicatedStorage").Communication.CustomerOrder:FireServer(workspace.Plots:FindFirstChild("4").Customers.Customer)
+
+
+game:GetService("ReplicatedStorage").Communication.ServeCustomer:FireServer(workspace.Plots:FindFirstChild("4").Customers.Customer)
+
+
+elseif LocalPlot == 5 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("5").Objects.Freezer1, true)
+
+
+game:GetService("ReplicatedStorage").Communication.CustomerOrder:FireServer(workspace.Plots:FindFirstChild("5").Customers.Customer)
+
+
+game:GetService("ReplicatedStorage").Communication.ServeCustomer:FireServer(workspace.Plots:FindFirstChild("5").Customers.Customer)
+	
+	end
+	end
+})
+
+
+local A = Auto.Button({
+	Text = "Serve Customer (Sundae)",
+	Callback = function()
+	if LocalPlot == 6 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("6").Objects.Bar1, true)
+
+
+game:GetService("ReplicatedStorage").Communication.CustomerOrder:FireServer(workspace.Plots:FindFirstChild("6").Customers.Customer)
+
+
+game:GetService("ReplicatedStorage").Communication.ServeCustomer:FireServer(workspace.Plots:FindFirstChild("6").Customers.Customer)
+
+elseif LocalPlot == 1 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("1").Objects.Bar1, true)
+
+
+game:GetService("ReplicatedStorage").Communication.CustomerOrder:FireServer(workspace.Plots:FindFirstChild("1").Customers.Customer)
+
+
+game:GetService("ReplicatedStorage").Communication.ServeCustomer:FireServer(workspace.Plots:FindFirstChild("1").Customers.Customer)
+
+
+elseif LocalPlot == 2 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("2").Objects.Bar1, true)
+
+
+game:GetService("ReplicatedStorage").Communication.CustomerOrder:FireServer(workspace.Plots:FindFirstChild("2").Customers.Customer)
+
+
+game:GetService("ReplicatedStorage").Communication.ServeCustomer:FireServer(workspace.Plots:FindFirstChild("2").Customers.Customer)
+
+
+elseif LocalPlot == 3 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("3").Objects.Bar1, true)
+
+
+game:GetService("ReplicatedStorage").Communication.CustomerOrder:FireServer(workspace.Plots:FindFirstChild("3").Customers.Customer)
+
+
+game:GetService("ReplicatedStorage").Communication.ServeCustomer:FireServer(workspace.Plots:FindFirstChild("3").Customers.Customer)
+
+elseif LocalPlot == 4 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("4").Objects.Bar1, true)
+
+
+game:GetService("ReplicatedStorage").Communication.CustomerOrder:FireServer(workspace.Plots:FindFirstChild("4").Customers.Customer)
+
+
+game:GetService("ReplicatedStorage").Communication.ServeCustomer:FireServer(workspace.Plots:FindFirstChild("4").Customers.Customer)
+
+
+elseif LocalPlot == 5 then
+
+game:GetService("ReplicatedStorage").Communication.UseMachine:FireServer(workspace.Plots:FindFirstChild("5").Objects.Bar1, true)
+
+
+game:GetService("ReplicatedStorage").Communication.CustomerOrder:FireServer(workspace.Plots:FindFirstChild("5").Customers.Customer)
+
+
+game:GetService("ReplicatedStorage").Communication.ServeCustomer:FireServer(workspace.Plots:FindFirstChild("5").Customers.Customer)
+	
+	end
+	end
+})
+
+
+	
+
+local Up = X.New({
+	Title = "Upgrades"
+})
+
+local A = Up.Button({
+	Text = "Upgrade Lemondade",
+	Callback = function()
+local args = {
+    [1] = "Lemonade"
+}
+
+game:GetService("ReplicatedStorage").Communication.UpgradeMachine:FireServer(unpack(args))
+
+	end
+})
+
+
+local A = Up.Button({
+	Text = "Upgrade Hotdog",
+	Callback = function()
+local args = {
+    [1] = "Hotdog"
+}
+
+game:GetService("ReplicatedStorage").Communication.UpgradeMachine:FireServer(unpack(args))
+
+	end
+})
+
+local A = Up.Button({
+	Text = "Upgrade Soda",
+	Callback = function()
+local args = {
+    [1] = "Soda"
+}
+
+game:GetService("ReplicatedStorage").Communication.UpgradeMachine:FireServer(unpack(args))
+
+	end
+})
+
+local A = Up.Button({
+	Text = "Upgrade Ice Cream",
+	Callback = function()
+local args = {
+    [1] = "Ice Cream Cone"
+}
+
+game:GetService("ReplicatedStorage").Communication.UpgradeMachine:FireServer(unpack(args))
+
+	end
+})
+
+local A = Up.Button({
+	Text = "Upgrade Ice Cream Bar",
+	Callback = function()
+local args = {
+    [1] = "Ice Cream Bar"
+}
+
+game:GetService("ReplicatedStorage").Communication.UpgradeMachine:FireServer(unpack(args))
+
+	end
+})
+
+local A = Up.Button({
+	Text = "Upgrade Sundae",
+	Callback = function()
+local args = {
+    [1] = "Sundae"
+}
+
+game:GetService("ReplicatedStorage").Communication.UpgradeMachine:FireServer(unpack(args))
+
+	end
+})
+
