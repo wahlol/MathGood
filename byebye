@@ -1,0 +1,569 @@
+game.StarterGui:SetCore("SendNotification", {
+                    Title = "Moony-Ware has loaded...",
+                    Text = "Have Fun 🌕🌙"
+                })
+
+local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
+
+local X = Material.Load({
+	Title = "Moony-Ware",
+	Style = 1,
+	SizeX = 500,
+	SizeY = 350,
+	Theme = "Dark",
+})
+
+local Abt = X.New({
+	Title = "About"
+})
+
+local A = Abt.Button({
+	Text = "Game: 2x💪 Roblox but every second you get +1 Strength",
+	Callback = function()
+		print("hello")
+	end
+})
+
+local A = Abt.Button({
+	Text = "Status: Working",
+	Callback = function()
+		print("hello")
+	end
+})
+
+local A = Abt.Button({
+	Text = "made by wah#6969",
+	Callback = function()
+		print("hello")
+	end
+})
+
+local A = Abt.Button({
+	Text = "Join The Discord (Copies to clipboard)",
+	Callback = function()
+	setclipboard("discord.gg/selling")
+	end
+})
+
+local Farm = X.New({
+	Title = "Auto Farm"
+})
+
+local B = Farm.Button({
+	Text = "Auto Farm Strength (OP) (WON'T STOP)",
+	Callback = function(Value)
+local OsClock = os.clock
+local CoroutineYield = coroutine.yield
+local CoroutineRunning = coroutine.running
+local TaskSpawn = task.spawn
+local TableInsert = table.insert
+
+-- Pre-allocate 100 indices
+local Yields = table.create(100)
+game:GetService("RunService").Stepped:Connect(function()
+    game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+
+    local Now = OsClock()
+    for Index, Data in next, Yields do
+        local TimeYielded = Now - Data[1]
+        if TimeYielded >= Data[2] then
+            Yields[Index] = nil
+            TaskSpawn(Data[3], TimeYielded, Now)
+        end
+    end
+end)
+
+return function(YieldTime)
+    YieldTime = (type(YieldTime) ~= "number" or YieldTime < 0) and 0 or YieldTime
+    TableInsert(Yields, {OsClock(), YieldTime, CoroutineRunning()})
+    return CoroutineYield()
+end
+	    
+	end
+	
+})
+
+local B = Farm.Toggle({
+	Text = "Auto Farm Strength (SUPER OP) (Won't stop)",
+	Callback = function(Value)
+	if Value == true then
+	    
+	    getgenv().farmer1 = true;
+
+while wait() do
+    if getgenv().farmer1 == true then
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SchoolTrash/MathGood/main/i%20messed%20up"))()
+
+end
+end
+
+else
+    
+    getgenv().farmer1 = false;
+	    
+	    end
+	end,
+	Enabled = false
+})
+
+local B = Farm.Toggle({
+	Text = "Auto Farm Strength (Will stop)",
+	Callback = function(Value)
+	if Value == true then
+	    
+	    getgenv().farmer3 = true;
+
+while wait() do
+    if getgenv().farmer3 == true then
+
+game:GetService("ReplicatedStorage").Remotes.UpdateStrength:FireServer()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.UpdateHealth:FireServer(unpack(args))
+
+end
+end
+
+else
+    
+    getgenv().farmer3 = false;
+	    
+	    end
+	end,
+	Enabled = false
+})
+
+local B = Farm.Button({
+	Text = "Auto Farm Kills",
+	Callback = function(Value)
+	
+	for _,v in pairs(game.Workspace.NPCs.Rank1:GetDescendants()) do
+
+if string.find(v.Name, "Evil Noob") and v:FindFirstChild("HumanoidRootPart") then
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v:FindFirstChild("HumanoidRootPart").CFrame*CFrame.new(0,0,-5)
+wait(0.2)
+
+local args = {
+    [1] = 108030,
+    [2] = math.huge
+}
+
+game:GetService("ReplicatedStorage").Remotes.Punch:FireServer(unpack(args))
+end
+
+end
+        
+      end 
+})
+
+local Combat = X.New({
+	Title = "Combat"
+})
+
+local H = Combat.TextField({
+	Text = "Kill Player",
+	Callback = function(Value)
+	local playerName = Value
+
+    if game:GetService('Players'):FindFirstChild(playerName) then
+
+        local playerss = game:GetService('Players')
+        local playerPos = playerss:FindFirstChild(playerName).Character.HumanoidRootPart.CFrame.Position
+        
+        game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(playerPos)
+        
+        wait(0.1)
+          game:GetService("ReplicatedStorage").Remotes.Punch:FireServer(33127984,math.huge)
+        
+        end
+	end
+})
+
+
+
+local Gloves = X.New({
+	Title = "Gloves"
+})
+
+local D = Gloves.Dropdown({
+	Text = "Gloves (Basic Colors)",
+	Callback = function(Value)
+	
+	if Value == "Blue Gloves" then
+	
+	local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character,
+    [2] = "Blue Gloves"
+}
+
+game:GetService("ReplicatedStorage").Remotes.EquipGlove:FireServer(unpack(args))
+
+elseif Value == "Pink Gloves" then
+    local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character,
+    [2] = "Pink Gloves"
+}
+
+game:GetService("ReplicatedStorage").Remotes.EquipGlove:FireServer(unpack(args))
+
+elseif Value == "Orange Gloves" then
+    local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character,
+    [2] = "Orange Gloves"
+}
+
+game:GetService("ReplicatedStorage").Remotes.EquipGlove:FireServer(unpack(args))
+
+elseif Value == "Yellow Gloves" then 
+    local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character,
+    [2] = "Yellow Gloves"
+}
+
+game:GetService("ReplicatedStorage").Remotes.EquipGlove:FireServer(unpack(args))
+
+elseif Value == "Green Gloves" then
+    local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character,
+    [2] = "Green Gloves"
+}
+
+game:GetService("ReplicatedStorage").Remotes.EquipGlove:FireServer(unpack(args))
+
+elseif Value == "Purple Gloves" then
+    local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character,
+    [2] = "Purple Gloves"
+}
+
+game:GetService("ReplicatedStorage").Remotes.EquipGlove:FireServer(unpack(args))
+
+elseif Value == "White Gloves" then
+    local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character,
+    [2] = "White Gloves"
+}
+
+game:GetService("ReplicatedStorage").Remotes.EquipGlove:FireServer(unpack(args))
+elseif Value == "Black Gloves" then
+    local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character,
+    [2] = "Black Gloves"
+}
+
+game:GetService("ReplicatedStorage").Remotes.EquipGlove:FireServer(unpack(args))
+	
+	end
+	end,
+	Options = {
+		"Blue Gloves",
+		"Pink Gloves",
+		"Orange Gloves",
+		"Yellow Gloves",
+		"Green Gloves",
+		"Purple Gloves",
+		"White Gloves",
+		"Black Gloves"
+	}
+})
+
+local D = Gloves.Dropdown({
+	Text = "Gloves (Neon)",
+	Callback = function(Value)
+	if Value == "Neon Blue Gloves" then
+	
+	local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character,
+    [2] = "Neon Blue Gloves"
+}
+
+game:GetService("ReplicatedStorage").Remotes.EquipGlove:FireServer(unpack(args))
+
+elseif Value == "Neon Pink Gloves" then
+    local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character,
+    [2] = "Neon Pink Gloves"
+}
+
+game:GetService("ReplicatedStorage").Remotes.EquipGlove:FireServer(unpack(args))
+
+elseif Value == "Neon Orange Gloves" then
+    local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character,
+    [2] = "Neon Orange Gloves"
+}
+
+game:GetService("ReplicatedStorage").Remotes.EquipGlove:FireServer(unpack(args))
+
+elseif Value == "Neon Yellow Gloves" then 
+    local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character,
+    [2] = "Neon Yellow Gloves"
+}
+
+game:GetService("ReplicatedStorage").Remotes.EquipGlove:FireServer(unpack(args))
+
+elseif Value == "Neon Green Gloves" then
+    local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character,
+    [2] = "Neon Green Gloves"
+}
+
+game:GetService("ReplicatedStorage").Remotes.EquipGlove:FireServer(unpack(args))
+
+elseif Value == "Neon Purple Gloves" then
+    local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character,
+    [2] = "Neon Purple Gloves"
+}
+
+game:GetService("ReplicatedStorage").Remotes.EquipGlove:FireServer(unpack(args))
+
+elseif Value == "Neon White Gloves" then
+    local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character,
+    [2] = "Neon White Gloves"
+}
+
+game:GetService("ReplicatedStorage").Remotes.EquipGlove:FireServer(unpack(args))
+elseif Value == "Neon Black Gloves" then
+    local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character,
+    [2] = "Neon Black Gloves"
+}
+
+game:GetService("ReplicatedStorage").Remotes.EquipGlove:FireServer(unpack(args))
+
+elseif Value == "Rainbow Gloves" then
+    local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character,
+    [2] = "Rainbow Gloves"
+}
+
+game:GetService("ReplicatedStorage").Remotes.EquipGlove:FireServer(unpack(args))
+
+elseif Value == "Neon Red Gloves" then
+    local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character,
+    [2] = "Neon Red Gloves"
+}
+
+game:GetService("ReplicatedStorage").Remotes.EquipGlove:FireServer(unpack(args))
+	
+	end
+	end,
+	Options = {
+		"Neon Red Gloves",
+		"Neon Blue Gloves",
+		"Neon Pink Gloves",
+		"Neon Orange Gloves",
+		"Neon Yellow Gloves",
+		"Neon Green Gloves",
+		"Neon Purple Gloves",
+		"Neon White Gloves",
+		"Rainbow Gloves"
+	}
+})
+
+
+local D = Gloves.Dropdown({
+	Text = "Gloves (Christmas)",
+	Callback = function(Value)
+	
+	if Value == "Christmas Gloves" then
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character,
+    [2] = "Christmas Gloves"
+}
+
+game:GetService("ReplicatedStorage").Remotes.EquipGlove:FireServer(unpack(args))
+
+elseif Value == "Santa Gloves" then
+    local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character,
+    [2] = "Santa Gloves"
+}
+
+game:GetService("ReplicatedStorage").Remotes.EquipGlove:FireServer(unpack(args))
+
+elseif Value == "Raindeer Gloves" then
+    
+    local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character,
+    [2] = "Raindeer Gloves"
+}
+
+game:GetService("ReplicatedStorage").Remotes.EquipGlove:FireServer(unpack(args))
+
+	    
+	
+	end
+	end,
+	Options = {
+		"Christmas Gloves",
+		"Santa Gloves",
+		"Raindeer Gloves"
+	}
+})
+
+
+local D = Gloves.Dropdown({
+	Text = "Gloves (Funny)",
+	Callback = function(Value)
+	if Value == "Spider Gloves" then
+	    
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character,
+    [2] = "Spider Gloves"
+}
+
+game:GetService("ReplicatedStorage").Remotes.EquipGlove:FireServer(unpack(args))
+
+elseif Value == "Skull With Ribbon Gloves" then
+    local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character,
+    [2] = "Skull With Ribbon Gloves"
+}
+
+game:GetService("ReplicatedStorage").Remotes.EquipGlove:FireServer(unpack(args))
+
+elseif Value == "Toxic Skull Gloves" then
+    
+    local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character,
+    [2] = "Toxic Skull Gloves"
+}
+
+game:GetService("ReplicatedStorage").Remotes.EquipGlove:FireServer(unpack(args))
+
+elseif Value == "Unicorn Destroyers" then
+    
+    local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character,
+    [2] = "Unicorn Destroyers"
+}
+
+game:GetService("ReplicatedStorage").Remotes.EquipGlove:FireServer(unpack(args))
+
+elseif Value == "Zombie Gloves" then
+    
+    local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character,
+    [2] = "Zombie Gloves"
+}
+
+game:GetService("ReplicatedStorage").Remotes.EquipGlove:FireServer(unpack(args))
+
+elseif Value == "Noob Gloves" then
+    
+    local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character,
+    [2] = "Noob Gloves"
+}
+
+game:GetService("ReplicatedStorage").Remotes.EquipGlove:FireServer(unpack(args))
+
+	    
+	    end
+	end,
+	Options = {
+		"Spider Gloves",
+		"Skull With Ribbon Gloves",
+		"Toxic Skull Gloves",
+		"Unicorn Destroyers",
+		"Zombie Gloves",
+		"Noob Gloves"
+	}
+})
+
+
+
+local D = Gloves.Dropdown({
+	Text = "Gloves (Robux)",
+	Callback = function(Value)
+	if Value == "Spikey Gloves" then
+	    
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character,
+    [2] = "Spikey Gloves"
+}
+
+game:GetService("ReplicatedStorage").Remotes.EquipGlove:FireServer(unpack(args))
+
+elseif Value == "Demonic Whackers" then
+    
+    local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character,
+    [2] = "Demonic Whackers"
+}
+
+game:GetService("ReplicatedStorage").Remotes.EquipGlove:FireServer(unpack(args))
+
+elseif Value == "Slashers" then
+
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character,
+    [2] = "Slashers"
+}
+
+game:GetService("ReplicatedStorage").Remotes.EquipGlove:FireServer(unpack(args))
+
+	    
+	    
+	    end
+	end,
+	Options = {
+		"Spikey Gloves",
+		"Demonic Whackers",
+		"Slashers"
+	}
+})
+
+
+local Other = X.New({
+	Title = "Other"
+})
+
+local H = Other.TextField({
+	Text = "Teleport to player",
+	Callback = function(Value)
+	local playerName = Value
+
+    if game:GetService('Players'):FindFirstChild(playerName) then
+
+        local playerss = game:GetService('Players')
+        local playerPos = playerss:FindFirstChild(playerName).Character.HumanoidRootPart.CFrame.Position
+
+        game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(playerPos)
+        end
+	end
+})
+
+local A = Other.Button({
+	Text = "Teleport to secret room (get a badge)",
+	Callback = function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(597.238892, 5.84918785, -102.305412)
+	end
+})
+
+local A = Other.Button({
+	Text = "Teleport to spawn",
+	Callback = function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0.0967809409, 4.60039377, -0.428742677)
+	end
+})
+
+local C = Other.Slider({
+	Text = "WalkSpeed",
+	Callback = function(Value)
+	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+	end,
+	Min = 16,
+	Max = 100,
+	Def = 16
+})
