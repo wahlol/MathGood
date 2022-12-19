@@ -1,0 +1,148 @@
+local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
+
+local X = Material.Load({
+	Title = "Moony-Ware",
+	Style = 1,
+	SizeX = 500,
+	SizeY = 350,
+	Theme = "Dark",
+	
+})
+
+local Abt = X.New({
+	Title = "About"
+})
+
+local A = Abt.Button({
+	Text = "Game: 2x💪 Roblox but every second you get +1 Strength",
+	Callback = function()
+		print("hello")
+	end
+})
+
+local A = Abt.Button({
+	Text = "Status: Working",
+	Callback = function()
+		print("hello")
+	end
+})
+
+local A = Abt.Button({
+	Text = "made by wah#6969",
+	Callback = function()
+		print("hello")
+	end
+})
+
+local A = Abt.Button({
+	Text = "Join The Discord (Copies to clipboard)",
+	Callback = function()
+	setclipboard("discord.gg/selling")
+	end
+})
+
+local Farm = X.New({
+	Title = "Auto Farm"
+})
+
+local B = Farm.Toggle({
+	Text = "Auto Swing",
+	Callback = function(Value)
+		if Value == true then
+	    
+	    getgenv().farmer1 = true;
+
+while wait() do
+    if getgenv().farmer1 == true then
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.ClickService.RF.Click:InvokeServer()
+
+
+
+end
+end
+
+else
+    
+    getgenv().farmer1 = false;
+	    
+	    end
+	end,
+	Enabled = false
+})
+
+
+local Eggs = X.New({
+	Title = "Eggs"
+})
+
+local A = Eggs.Button({
+	Text = "Open Weak Egg",
+	Callback = function()
+local args = {
+    [1] = {
+        ["eggName"] = "Egg 1",
+        ["auto"] = false,
+        ["amount"] = 1
+    }
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.EggService.RF.BuyEgg:InvokeServer(unpack(args))
+
+	end
+})
+
+
+local A = Eggs.Button({
+	Text = "Open Strong Egg",
+	Callback = function()
+local args = {
+    [1] = {
+        ["eggName"] = "Egg 2",
+        ["auto"] = false,
+        ["amount"] = 1
+    }
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.EggService.RF.BuyEgg:InvokeServer(unpack(args))
+
+
+	end
+})
+
+
+local A = Eggs.Button({
+	Text = "Open Paradise Egg",
+	Callback = function()
+local args = {
+    [1] = {
+        ["eggName"] = "Egg 3",
+        ["auto"] = false,
+        ["amount"] = 1
+    }
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.EggService.RF.BuyEgg:InvokeServer(unpack(args))
+
+
+	end
+})
+
+
+local Char = X.New({
+	Title = "Character"
+})
+
+local C = Char.Slider({
+	Text = "WalkSpeed",
+	Callback = function(Value)
+	
+	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+	
+
+	
+	end,
+	Min = 16,
+	Max = 200,
+	Def = 16
+})
